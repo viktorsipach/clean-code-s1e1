@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.more_inf {
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -169,11 +169,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-.editMode input[type="text"] {
+.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.edit-mode label {
   display: none;
 }
